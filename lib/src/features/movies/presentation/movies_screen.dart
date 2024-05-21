@@ -26,7 +26,7 @@ class MoviesScreen extends StatelessWidget {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(16.0),
                         child: Image.network(
-                          'https://picsum.photos/400',
+                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFKJCBk8oZmcBxsggKRhslIg6Pp2qsE9Pmmg&usqp=CAU',
                           height: 150,
                           width: double.infinity,
                           fit: BoxFit.cover,
@@ -108,7 +108,7 @@ class MoviesScreen extends StatelessWidget {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(16.0),
                         child: Image.network(
-                          'https://picsum.photos/401',
+                          'https://de.web.img3.acsta.net/r_654_368/img/95/3b/953bf396a9308be856e10b7075d2c570.jpg',
                           height: 150,
                           width: double.infinity,
                           fit: BoxFit.cover,
@@ -190,7 +190,7 @@ class MoviesScreen extends StatelessWidget {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(16.0),
                         child: Image.network(
-                          'https://picsum.photos/402',
+                          'https://images.cgames.de/images/gsgp/290/harry-potter-filme_6229276.jpg',
                           height: 150,
                           width: double.infinity,
                           fit: BoxFit.cover,
@@ -272,7 +272,7 @@ class MoviesScreen extends StatelessWidget {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(16.0),
                         child: Image.network(
-                          'https://picsum.photos/404',
+                          'https://cdn.prod.www.spiegel.de/images/79703aee-0001-0004-0000-000000776367_w960_r1.778_fpx42_fpy45.jpg',
                           height: 150,
                           width: double.infinity,
                           fit: BoxFit.cover,
