@@ -68,14 +68,24 @@ class MoviesScreen extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
                                 FilledButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                            content:
+                                                Text('Ticket zu Star Wars')));
+                                  },
                                   child: const Text('Ticket kaufen'),
                                 ),
                                 const SizedBox(
                                   width: 8,
                                 ),
                                 OutlinedButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                            content:
+                                                Text('Vorschau zu Star Wars')));
+                                  },
                                   child: const Text('Vorschau'),
                                 ),
                               ],
@@ -140,14 +150,24 @@ class MoviesScreen extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
                                 FilledButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                            content: Text(
+                                                'Ticket zu Herr der Ringe')));
+                                  },
                                   child: const Text('Ticket kaufen'),
                                 ),
                                 const SizedBox(
                                   width: 8,
                                 ),
                                 OutlinedButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                            content: Text(
+                                                'Vorschau zu Herr der Ringe')));
+                                  },
                                   child: const Text('Vorschau'),
                                 ),
                               ],
@@ -212,14 +232,24 @@ class MoviesScreen extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
                                 FilledButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                            content: Text(
+                                                'Ticket zu Harry Potter')));
+                                  },
                                   child: const Text('Ticket kaufen'),
                                 ),
                                 const SizedBox(
                                   width: 8,
                                 ),
                                 OutlinedButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                            content: Text(
+                                                'Vorschau zu Harry Potter')));
+                                  },
                                   child: const Text('Vorschau'),
                                 ),
                               ],
@@ -284,14 +314,24 @@ class MoviesScreen extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
                                 FilledButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                            content: Text(
+                                                'Ticket zu Hunger Games')));
+                                  },
                                   child: const Text('Ticket kaufen'),
                                 ),
                                 const SizedBox(
                                   width: 8,
                                 ),
                                 OutlinedButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                            content: Text(
+                                                'Vorschau zu Hunger Games')));
+                                  },
                                   child: const Text('Vorschau'),
                                 ),
                               ],
